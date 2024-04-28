@@ -95,6 +95,7 @@ In this repository, you will find labs, notes, and resources related to the foll
 
 The repository is organized into folders corresponding to each section of the course. Within each folder, you will find relevant labs, notes, and resources related to that particular topic.
 
+
 ## 📝 Notebooks
 A list of notebooks related to large language models.
 
@@ -110,14 +111,14 @@ A list of notebooks related to large language models.
 | --- | --- |
 | [Fine-tune Llama 2 with SFT](./Finetuning/Fine_tune_Llama_2_in_Google_Colab.ipynb) | Step-by-step guide to supervised fine-tune Llama 2 in Google Colab. |
 | [Fine-tune CodeLlama using Axolotl](./Finetuning/Fine_tune_LLMs_with_Axolotl.ipynb) | End-to-end guide to the state-of-the-art tool for fine-tuning. |
-| [Fine-tune Mistral-7b with SFT](./Finetuning/Fine_tune_Mistral_7b_with_SFT.ipynb) | Superd fine-tune Mistral-7b in a free-tier Google Cob with TRL. |
+| [Fine-tune Mistral-7b with SFT](./Finetuning/Fine_tune_Mistral_7b_with_SFT.ipynb) | Superd fine-tune Mistral-7b in a free-tier Google Colab with TRL. |
 | [Fine-tune Mistral-7b with DPO](./Finetuning/Fine_tune_Mistral_7b_with_DPO.ipynb) | Boost the performance of supervised fine-tuned models with DPO. |
 | [Fine-tune Llama 3 with ORPO](./Finetuning/Fine_tune_Llama_3_with_ORPO.ipynb) | Cheaper and faster fine-tuning in a single stage with ORPO. |
-
 | [Gemma Finetuning](/Finetuning/Gemma_finetuning_notebook.ipynb) | Notebook to Finetune Gemma Models |
 | [Mistral-7b Finetuning](/Finetuning/Mistral_finetuning_notebook.ipynb) | Notebook to Finetune Mistral-7b Model |
 | [Mixtral Finetuning](/Finetuning/Mixtral_finetuning_notebook.ipynb) | Notebook to Finetune Mixtral-7b Models |
 | [Llama2 Finetuning](/Finetuning/Llama2_finetuning_notebook.ipynb) | Notebook to Finetune Llama2-7b Model |
+
 ### Quantization
 | Notebook | Description |
 | --- | --- |
