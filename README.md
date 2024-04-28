@@ -4,19 +4,19 @@ This repository is dedicated to sharing my personal journey and notes on Generat
 
 In this repository, you will find labs, notes, and resources related to the following course outline:
 
-## Course Outline: Generative AI (100 hours)
+## Course Outline: Generative AI 
 
-1. **Introduction to Generative AI (5 hours)**
+1. **Introduction to Generative AI **
    - What is Generative AI?
    - Different types of Generative AI (Variational Autoencoders, Generative Adversarial Networks)
    - Applications of Generative AI (text generation, image generation, music generation)
 
-2. **Responsible AI and Governance (5 hours)**
+2. **Responsible AI and Governance **
    - Bias and Fairness in AI Models
    - Explainability and Interpretability
    - Legal and Ethical Considerations
 
-3. **Natural Language Processing (NLP) (20 hours)**
+3. **Natural Language Processing (NLP) **
    - Text Preprocessing:
      - Tokenization
      - Stemming
@@ -35,7 +35,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - LSTMs
      - GRUs
 
-4. **Large Language Models (LLMs) (40 hours)**
+4. **Large Language Models (LLMs)**
    - LLM architecture:
      - Transformer architecture (high-level view)
      - Tokenization
@@ -69,7 +69,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - GPTQ and EXL2
      - AWQ
 
-5. **Retrieval Augmented Generation (RAG) (10 hours)**
+5. **Retrieval Augmented Generation (RAG) **
    - Building a Vector Storage:
      - Ingesting documents
      - Splitting documents
@@ -81,7 +81,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - Memory
    - Evaluation
 
-6. **Running and Using LLMs (20 hours)**
+6. **Running and Using LLMs **
    - LLM APIs
    - Open-source LLMs (Hugging Face Hub)
    - Prompt engineering techniques
