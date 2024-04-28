@@ -6,17 +6,17 @@ In this repository, you will find labs, notes, and resources related to the foll
 
 ## Course Outline: Generative AI 
 
-1. **Introduction to Generative AI **
+1. **Introduction to Generative AI**
    - What is Generative AI?
    - Different types of Generative AI (Variational Autoencoders, Generative Adversarial Networks)
    - Applications of Generative AI (text generation, image generation, music generation)
 
-2. **Responsible AI and Governance **
+2. **Responsible AI and Governance**
    - Bias and Fairness in AI Models
    - Explainability and Interpretability
    - Legal and Ethical Considerations
 
-3. **Natural Language Processing (NLP) **
+3. **Natural Language Processing (NLP)**
    - Text Preprocessing:
      - Tokenization
      - Stemming
@@ -69,7 +69,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - GPTQ and EXL2
      - AWQ
 
-5. **Retrieval Augmented Generation (RAG) **
+5. **Retrieval Augmented Generation (RAG)**
    - Building a Vector Storage:
      - Ingesting documents
      - Splitting documents
@@ -81,7 +81,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - Memory
    - Evaluation
 
-6. **Running and Using LLMs **
+6. **Running and Using LLMs**
    - LLM APIs
    - Open-source LLMs (Hugging Face Hub)
    - Prompt engineering techniques
