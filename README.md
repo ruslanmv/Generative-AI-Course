@@ -89,6 +89,11 @@ In this repository, you will find labs, notes, and resources related to the foll
      - Load an LLM from Watson.ai
    - Integration of Watson Assistant with Watsonx.ai
 
+6. [**Diffusion Models**](Docs/6-Difffusion-Models/README.md)
+   -Introduction to Diffusion Models
+   - Fine-Tuning and Guidance
+   - Advanced Diffusion Models and Techniques
+
 ## Repository Structure
 
 The repository is organized into folders corresponding to each section of the course. Within each folder, you will find relevant labs, notes, and resources related to that particular topic.
