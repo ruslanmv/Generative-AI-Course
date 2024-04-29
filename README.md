@@ -6,17 +6,16 @@ In this repository, you will find labs, notes, and resources related to the foll
 
 ## Course Outline: Generative AI 
 
-1. **Introduction to Generative AI**
+1. [**Introduction to Generative AI**](Docs/1-Introduction-GenAI/README.md)
    - What is Generative AI?
    - Different types of Generative AI (Variational Autoencoders, Generative Adversarial Networks)
    - Applications of Generative AI (text generation, image generation, music generation)
-
-2. **Responsible AI and Governance**
+   - Responsible AI and Governance
    - Bias and Fairness in AI Models
    - Explainability and Interpretability
    - Legal and Ethical Considerations
 
-3. **Natural Language Processing (NLP)**
+2. [**Natural Language Processing (NLP)**](Docs/2-Natural-Language-Processing/README.md)
    - Text Preprocessing:
      - Tokenization
      - Stemming
@@ -35,7 +34,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - LSTMs
      - GRUs
 
-4. **Large Language Models (LLMs)**
+3. [**Large Language Models (LLMs)**](Docs/3-Large-Language-Models/README.md)
    - LLM architecture:
      - Transformer architecture (high-level view)
      - Tokenization
@@ -68,8 +67,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - GGUF and llama.cpp
      - GPTQ and EXL2
      - AWQ
-
-5. **Retrieval Augmented Generation (RAG)**
+4. [**Retrieval Augmented Generation (RAG)**](Docs/4-Retrieval-Augmented-Generation/README.md)
    - Building a Vector Storage:
      - Ingesting documents
      - Splitting documents
@@ -81,7 +79,7 @@ In this repository, you will find labs, notes, and resources related to the foll
      - Memory
    - Evaluation
 
-6. **Running and Using LLMs**
+5. [**Deployment in Production**](Docs/5-Deployment-in-Production/README.md)
    - LLM APIs
    - Open-source LLMs (Hugging Face Hub)
    - Prompt engineering techniques
