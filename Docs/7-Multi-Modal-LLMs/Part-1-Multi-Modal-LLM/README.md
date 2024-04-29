@@ -1,5 +1,3 @@
-Here is the revised blog post with complete Python code examples:
-
 **Multi-Modal Large Language Models (LLMs)**
 ==============================================
 
