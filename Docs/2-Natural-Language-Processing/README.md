@@ -1,5 +1,3 @@
-Here is the rewritten blog post with added Python code examples:
-
 **Demystifying Natural Language Processing (NLP)**
 =====================================================
 
