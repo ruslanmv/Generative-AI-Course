@@ -93,6 +93,23 @@ In this repository, you will find labs, notes, and resources related to the foll
    -Introduction to Diffusion Models
    - Fine-Tuning and Guidance
    - Advanced Diffusion Models and Techniques
+7. **Multi-Modal Large Language Models (LLMs)**
+  - [**Demystifying Multi-Modal LLMs**](Docs/7-Multi-Modal-LLMs/Part-1-Multi-Modal-LLM/README.md)
+    -Applications of Multi-Modal LLMs
+    -Understanding the Technology
+    -Architecture of Multi-Modal LLMs
+    -Challenges and Considerations
+    -Bias and Fairness
+    -Future of Multi-Modal LLMs
+    - Potential Advancements
+  - [**Creating a Multimodal Model: Combining LLM with Images**](Docs/7-Multi-Modal-LLMs/Part-2-Creation-Multi-Modal/README.md)
+    - Choosing a Multi-Modal LLM
+    - Loading Image Data
+    - Initializing the Multi-Modal LLM
+    - Building a Multi-Modal Vector Store/Index
+    - Retrieving Information
+    - Optional: Query Engine
+
 
 ## Repository Structure
 
