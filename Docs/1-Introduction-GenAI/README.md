@@ -155,5 +155,4 @@ In this blog post, we've explored the world of Generative AI, covering its core 
 **Resources**
 -------------
 
-* For a deeper dive into VAEs, check out [this tutorial](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/eager/python/examples/generative_models/vae.py).
 * For a comprehensive introduction to GANs, check out [this paper](https://arxiv.org/abs/1406.2661).
