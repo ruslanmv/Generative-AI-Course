@@ -154,7 +154,6 @@ A list of notebooks related to Generative AI.
 ### Inference
 | Notebook | Description |
 | --- | --- |
-
 | [LLM_Inference_with_llama_cpp_python__Llama_2_13b_chat](./Deployment/LLM_Inference_with_llama_cpp_python__Llama_2_13b_chat.ipynb)|Inference with CPP Llama |
 
 
