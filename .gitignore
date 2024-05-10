@@ -1,3 +1,5 @@
 backup/*
 
 */backup/*
+/.ipynb_checkpoints
+tables.ipynb
