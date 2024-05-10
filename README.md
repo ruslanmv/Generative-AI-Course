@@ -1,8 +1,9 @@
 # Generative AI Course Repository
 
 This repository is dedicated to sharing my personal journey and notes on Generative AI. As a professional Data Scientist, I've created this repository to provide resources, labs, and notes for other Data Scientists and enthusiasts looking to learn and grow in the field of Generative AI.
+## Repository Structure
 
-In this repository, you will find labs, notes, and resources related to the following course outline:
+The repository is organized into folders corresponding to each section of the course. Within each folder, you will find relevant labs, notes, and resources related to that particular topic.
 
 ## Course Outline: Generative AI 
 
@@ -109,15 +110,8 @@ In this repository, you will find labs, notes, and resources related to the foll
     - Building a Multi-Modal Vector Store/Index
     - Retrieving Information
     - Optional: Query Engine
-
-
-## Repository Structure
-
-The repository is organized into folders corresponding to each section of the course. Within each folder, you will find relevant labs, notes, and resources related to that particular topic.
-
-
 ## 📝 Notebooks
-A list of notebooks related to large language models.
+A list of notebooks related to Generative AI.
 
 ### Data Preparation
 | Notebook | Description |
@@ -138,6 +132,13 @@ A list of notebooks related to large language models.
 | [Mistral-7b Finetuning](/Finetuning/Mistral_finetuning_notebook.ipynb) | Notebook to Finetune Mistral-7b Model |
 | [Mixtral Finetuning](/Finetuning/Mixtral_finetuning_notebook.ipynb) | Notebook to Finetune Mixtral-7b Models |
 | [Llama2 Finetuning](/Finetuning/Llama2_finetuning_notebook.ipynb) | Notebook to Finetune Llama2-7b Model |
+| [Alpaca_+_TinyLlama_+_RoPE_Scaling](./Finetuning/Alpaca_+_TinyLlama_+_RoPE_Scaling_unsloth.ipynb) | TinyLlama: 3.9x faster, 74% less memory use. |
+| [Alpaca_+_Phi_3_3_8b](./Finetuning/Alpaca_+_Phi_3_3_8b_unsloth.ipynb) | Phi-3 (3.8B): 2x faster, 50% less memory use. |
+| [DPO_Zephyr](./Finetuning/DPO_Zephyr_unsloth.ipynb) | DPO Zephyr:  1.9x faster, 43% less memory use. |
+| [ORPO_Unsloth](./Finetuning/ORPO_Unsloth.ipynb) | ORPO: 1.9x faster, 43% less memory use. |
+| [Alpaca_+_Gemma_7b](./Finetuning/Alpaca_+_Gemma_7b_unsloth.ipynb) |  Gemma (7B): 2.4x faster, 71% less memory use. |
+| [Alpaca_+_Mistral_7b](./Finetuning/Alpaca_+_Mistral_7b_unsloth.ipynb) |Mistral (7B):  2.2x faster, 73% less memory use. |
+| [Alpaca_+_Llama_3_8b](./Finetuning/Alpaca_+_Llama_3_8b_unsloth.ipynb) | Llama 3 (8B):  2x faster, 60% less memory use |
 
 ### Quantization
 | Notebook | Description |
@@ -148,6 +149,12 @@ A list of notebooks related to large language models.
 | [ExLlamaV2: The Fastest Library to Run LLMs](./Quantization/Quantize_models_with_ExLlamaV2.ipynb) | Quantize and run EXL2 models and upload them to the HF Hub. |
 | [AWQ Quantization](/Quantization/AWQ_Quantization.ipynb) | Quantize LLM using AW. |
 | [GGUF Quantization](/Quantization/GGUF_Quantization.ipynb) | Quantize LLM to GGUF format. |
+
+
+### Inference
+| Notebook | Description |
+| --- | --- |
+| [LLM Inference with Llama CPP Python (Llama 2.13b Chat)](./Deployment/LLM_Inference_with_llama_cpp_python__Llama_2_13b_chat.ipynb) | Inference with CPP Llama |
 
 ### Tools
 | Notebook | Description |
@@ -164,3 +171,15 @@ A list of notebooks related to large language models.
 | --- | --- |
 | [Improve ChatGPT with Knowledge Graphs](./Other/Improve_ChatGPT_with_Knowledge_Graphs.ipynb) | Augment ChatGPT's answers with knowledge graphs. |
 | [Decoding Strategies in Large Language Models](./Other/Decoding_Strategies_in_Large_Language_Models.ipynb) | A guide to text generation from beam search to nucleus sampling |
+
+## Contributing
+--------------
+
+I'm thrilled to have you contribute to this repository! If you're interested in adding new content, fixing bugs, or improving the existing materials. Thank you for helping to make this repository a valuable resource for the Generative AI community!
+
+## About the Author
+-------------------
+
+I'm Ruslan Magana Vsevolodovna, a professional Data Scientist with a passion for Generative AI. You can learn more about me and my work at [ruslanmv.com](https://ruslanmv.com).
+
+Thank you for visiting this repository, and I hope you find the resources helpful in your Generative AI journey!
