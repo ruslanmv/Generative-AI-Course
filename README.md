@@ -172,6 +172,35 @@ A list of notebooks related to Generative AI.
 | [Improve ChatGPT with Knowledge Graphs](./Other/Improve_ChatGPT_with_Knowledge_Graphs.ipynb) | Augment ChatGPT's answers with knowledge graphs. |
 | [Decoding Strategies in Large Language Models](./Other/Decoding_Strategies_in_Large_Language_Models.ipynb) | A guide to text generation from beam search to nucleus sampling |
 
+### Transformers
+| Notebook | Description |
+| --- | --- |
+| [01_how_to_train](./notebooks/01_how_to_train.ipynb) | How to train |
+| [02_how_to_generate](./notebooks/02_how_to_generate.ipynb) | How to generate |
+| [03_reformer](./notebooks/03_reformer.ipynb) | Reformer |
+| [05_encoder_decoder](./notebooks/05_encoder_decoder.ipynb) | Encoder decoder |
+| [08_warm_starting_encoder_decoder](./notebooks/08_warm_starting_encoder_decoder.ipynb) | Warm starting encoder decoder |
+| [101_train-decision-transformers](./notebooks/101_train-decision-transformers.ipynb) | Train decision transformers |
+| [10_tf_serving](./notebooks/10_tf_serving.ipynb) | Tf serving |
+| [111_fine_tune_whisper](./notebooks/111_fine_tune_whisper.ipynb) | Fine tune whisper |
+| [111_tf_serving_vision](./notebooks/111_tf_serving_vision.ipynb) | Tf serving vision |
+| [112_vertex_ai_vision](./notebooks/112_vertex_ai_vision.ipynb) | Vertex ai vision |
+| [115_introducing_contrastive_search](./notebooks/115_introducing_contrastive_search.ipynb) | Introducing contrastive search |
+| [123_clipseg-zero-shot](./notebooks/123_clipseg-zero-shot.ipynb) | Clipseg zero shot |
+| [13_pytorch_xla](./notebooks/13_pytorch_xla.ipynb) | Pytorch xla |
+| [17_fine_tune_wav2vec2_for_english_asr](./notebooks/17_fine_tune_wav2vec2_for_english_asr.ipynb) | Fine tune wav2vec2 for English asr |
+| [18_fine_tune_xlsr_wav2vec2_asr](./notebooks/18_fine_tune_xlsr_wav2vec2_asr.ipynb) | Fine tune xlsr wav2vec2 asr |
+| [53_constrained_beam_search](./notebooks/53_constrained_beam_search.ipynb) | Constrained beam search |
+| [56_fine_tune_segformer](./notebooks/56_fine_tune_segformer.ipynb) | Fine tune segformer |
+| [64_fastai_hub](./notebooks/64_fastai_hub.ipynb) | Fastai hub |
+| [80_getting_started_with_embeddings](./notebooks/80_getting_started_with_embeddings.ipynb) | Getting started with embeddings |
+| [85_sentiment_analysis_twitter](./notebooks/85_sentiment_analysis_twitter.ipynb) | Sentiment analysis twitter |
+| [91_tf_xla_generate](./notebooks/91_tf_xla_generate.ipynb) | Tf xla generate |
+| [95_Training_Sentence_Transformers](./notebooks/95_Training_Sentence_Transformers.ipynb) | Training sentence transformers |
+| [fl-with-flower](./notebooks/fl-with-flower.ipynb) | Fl with flower |
+| [graphml-classification](./notebooks/graphml-classification.ipynb) | Graphml classification |
+| [HuggingFace_int8_demo](./notebooks/HuggingFace_int8_demo.ipynb) | HuggingFace int8 demo |
+
 ## Contributing
 --------------
 
