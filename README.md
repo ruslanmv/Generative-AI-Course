@@ -172,34 +172,110 @@ A list of notebooks related to Generative AI.
 | [Improve ChatGPT with Knowledge Graphs](./Other/Improve_ChatGPT_with_Knowledge_Graphs.ipynb) | Augment ChatGPT's answers with knowledge graphs. |
 | [Decoding Strategies in Large Language Models](./Other/Decoding_Strategies_in_Large_Language_Models.ipynb) | A guide to text generation from beam search to nucleus sampling |
 
-### Transformers
+### Transformers Basic
+
 | Notebook | Description |
 | --- | --- |
-| [01_how_to_train](./notebooks/01_how_to_train.ipynb) | How to train |
-| [02_how_to_generate](./notebooks/02_how_to_generate.ipynb) | How to generate |
-| [03_reformer](./notebooks/03_reformer.ipynb) | Reformer |
-| [05_encoder_decoder](./notebooks/05_encoder_decoder.ipynb) | Encoder decoder |
-| [08_warm_starting_encoder_decoder](./notebooks/08_warm_starting_encoder_decoder.ipynb) | Warm starting encoder decoder |
-| [101_train-decision-transformers](./notebooks/101_train-decision-transformers.ipynb) | Train decision transformers |
-| [10_tf_serving](./notebooks/10_tf_serving.ipynb) | Tf serving |
-| [111_fine_tune_whisper](./notebooks/111_fine_tune_whisper.ipynb) | Fine tune whisper |
-| [111_tf_serving_vision](./notebooks/111_tf_serving_vision.ipynb) | Tf serving vision |
-| [112_vertex_ai_vision](./notebooks/112_vertex_ai_vision.ipynb) | Vertex ai vision |
-| [115_introducing_contrastive_search](./notebooks/115_introducing_contrastive_search.ipynb) | Introducing contrastive search |
-| [123_clipseg-zero-shot](./notebooks/123_clipseg-zero-shot.ipynb) | Clipseg zero shot |
-| [13_pytorch_xla](./notebooks/13_pytorch_xla.ipynb) | Pytorch xla |
-| [17_fine_tune_wav2vec2_for_english_asr](./notebooks/17_fine_tune_wav2vec2_for_english_asr.ipynb) | Fine tune wav2vec2 for English asr |
-| [18_fine_tune_xlsr_wav2vec2_asr](./notebooks/18_fine_tune_xlsr_wav2vec2_asr.ipynb) | Fine tune xlsr wav2vec2 asr |
-| [53_constrained_beam_search](./notebooks/53_constrained_beam_search.ipynb) | Constrained beam search |
-| [56_fine_tune_segformer](./notebooks/56_fine_tune_segformer.ipynb) | Fine tune segformer |
-| [64_fastai_hub](./notebooks/64_fastai_hub.ipynb) | Fastai hub |
-| [80_getting_started_with_embeddings](./notebooks/80_getting_started_with_embeddings.ipynb) | Getting started with embeddings |
-| [85_sentiment_analysis_twitter](./notebooks/85_sentiment_analysis_twitter.ipynb) | Sentiment analysis twitter |
-| [91_tf_xla_generate](./notebooks/91_tf_xla_generate.ipynb) | Tf xla generate |
-| [95_Training_Sentence_Transformers](./notebooks/95_Training_Sentence_Transformers.ipynb) | Training sentence transformers |
-| [fl-with-flower](./notebooks/fl-with-flower.ipynb) | Fl with flower |
-| [graphml-classification](./notebooks/graphml-classification.ipynb) | Graphml classification |
-| [HuggingFace_int8_demo](./notebooks/HuggingFace_int8_demo.ipynb) | HuggingFace int8 demo |
+| [How to Train a Model](./notebooks/how_to_train.ipynb) | Learn the basics of training a model with transformers. |
+| [How to Generate Text](./notebooks/how_to_generate.ipynb) | Explore text generation techniques using transformers. |
+| [Reformer Architecture](./notebooks/reformer.ipynb) | Dive into the Reformer architecture and its applications. |
+| [Encoder-Decoder Basics](./notebooks/encoder_decoder.ipynb) | Understand the fundamentals of encoder-decoder models in transformers. |
+| [Warm Starting Encoder-Decoder](./notebooks/warm_starting_encoder_decoder.ipynb) | Learn how to warm start encoder-decoder models for better performance. |
+| [Training Decision Transformers](./notebooks/train_decision_transformers.ipynb) | Train decision transformers for various tasks. |
+| [TF Serving for Deployment](./notebooks/tf_serving.ipynb) | Deploy transformer models using TF Serving. |
+| [Fine-Tuning Whisper Models](./notebooks/fine_tune_whisper.ipynb) | Fine-tune Whisper models for speech recognition tasks. |
+| [TF Serving for Vision](./notebooks/tf_serving_vision.ipynb) | Deploy transformer models for vision tasks using TF Serving. |
+| [Vertex AI Vision](./notebooks/vertex_ai_vision.ipynb) | Explore Vertex AI Vision for computer vision tasks. |
+| [Introducing Contrastive Search](./notebooks/introducing_contrastive_search.ipynb) | Learn about contrastive search and its applications. |
+| [CLIPSeg Zero-Shot Learning](./notebooks/clipsseg-zero-shot.ipynb) | Implement zero-shot learning with CLIPSeg. |
+| [PyTorch XLA](./notebooks/pytorch_xla.ipynb) | Use PyTorch XLA for accelerated training. |
+| [Fine-Tuning Wav2Vec2 for English ASR](./notebooks/fine_tune_wav2vec2_for_english_asr.ipynb) | Fine-tune Wav2Vec2 models for English automatic speech recognition. |
+| [Fine-Tuning XLSR Wav2Vec2 ASR](./notebooks/fine_tune_xlsr_wav2vec2_asr.ipynb) | Fine-tune XLSR Wav2Vec2 models for automatic speech recognition. |
+| [Constrained Beam Search](./notebooks/constrained_beam_search.ipynb) | Implement constrained beam search for sequence generation. |
+| [Fine-Tuning SegFormer](./notebooks/fine_tune_segformer.ipynb) | Fine-tune SegFormer models for image segmentation tasks. |
+| [FastAI Hub](./notebooks/fastai_hub.ipynb) | Explore the FastAI Hub for transformer-based models. |
+| [Getting Started with Embeddings](./notebooks/getting_started_with_embeddings.ipynb) | Learn the basics of embeddings and their applications. |
+| [Sentiment Analysis on Twitter](./notebooks/sentiment_analysis_twitter.ipynb) | Perform sentiment analysis on Twitter data using transformers. |
+| [TF XLA Generate](./notebooks/tf_xla_generate.ipynb) | Use TF XLA for accelerated generation tasks. |
+| [Training Sentence Transformers](./notebooks/training_sentence_transformers.ipynb) | Train sentence transformers for various NLP tasks. |
+| [Federated Learning with Flower](./notebooks/fl-with-flower.ipynb) | Implement federated learning with Flower. |
+| [GraphML Classification](./notebooks/graphml-classification.ipynb) | Perform graph classification using GraphML and transformers. |
+| [Hugging Face INT8 Demo](./notebooks/huggingface_int8_demo.ipynb) | Explore Hugging Face's INTo for efficient inference.|
+
+
+### Transformers Advanced
+| Notebook | Description |
+| --- | --- |
+| [Annotated Diffusion](./Transformers/annotated_diffusion.ipynb) | Explore annotated diffusion techniques in transformers. |
+| [Audio Classification](./Transformers/audio_classification.ipynb) | Classify audio data using transformer-based models. |
+| [Autoformer Transformers Are Effective](./Transformers/autoformer-transformers-are-effective.ipynb) | Investigate the effectiveness of autoformer transformers. |
+| [Automatic Mask Generation](./Transformers-automatic_mask_generation.ipynb) | Generate masks automatically using transformer-based models. |
+| [Benchmark](./Transformers/benchmark.ipynb) | Benchmark various transformer models for performance. |
+| [Causal Language Modeling Flax](./Transformers/causal_language_modeling_flax.ipynb) | Implement causal language modeling using Flax and transformers. |
+| [Image Captioning BLIP](./Transformers/image_captioning_blip.ipynb) | Generate image captions using BLIP and transformers. |
+| [Image Captioning Pix2Struct](./Transformers/image_captioning_pix2struct.ipynb) | Explore image captioning using Pix2Struct and transformers. |
+| [Image Classification TF](./Transformers/image_classification-tf.ipynb) | Classify images using TensorFlow and transformers. |
+| [Image Classification](./Transformers/image_classification.ipynb) | Classify images using transformer-based models. |
+| [Image Classification Albumentations](./Transformers/image_classification_albumentations.ipynb) | Use Albumentations with transformers for image classification. |
+| [Image Classification Kornia](./Transformers/image_classification_kornia.ipynb) | Utilize Kornia with transformers for image classification. |
+| [Image Similarity](./Transformers/image_similarity.ipynb) | Measure image similarity using transformer-based models. |
+| [Language Modeling TF](./Transformers/language_modeling-tf.ipynb) | Implement language modeling using TensorFlow and transformers. |
+| [Language Modeling](./Transformers/language_modeling.ipynb) | Explore language modeling using transformer-based models. |
+| [Language Modeling From Scratch TF](./Transformers/language_modeling_from_scratch-tf.ipynb) | Build language models from scratch using TensorFlow and transformers. |
+| [Language Modeling From Scratch](./Transformers/language_modeling_from_scratch.ipynb) | Implement language modeling from scratch using transformers. |
+| [Masked Language Modeling Flax](./Transformers/masked_language_modeling_flax.ipynb) | Explore masked language modeling using Flax and transformers. |
+| [Multiple Choice TF](./Transformers/multiple_choice-tf.ipynb) | Implement multiple choice tasks using TensorFlow and transformers. |
+| [Multiple Choice](./Transformers/multiple_choice.ipynb) | Explore multiple choice tasks using transformer-based models. |
+| [Multivariate Informer](./Transformers/multivariate_informer.ipynb) | Forecast multivariate time series data using informer and transformers. |
+| [Multi-Lingual Speech Recognition](./Transformers/multi_lingual_speech_recognition.ipynb) | Recognize speech in multiple languages using transformers. |
+| [Nucleotide Transformer DNA Sequence Modeling](./Transformers/nucleotide_transformer_dna_sequence_modelling.ipynb) | Model DNA sequences using nucleotide transformers. |
+| [Nucleotide Transformer DNA Sequence Modeling with PEFT](./Transformers/nucleotide_transformer_dna_sequence_modelling_with_peft.ipynb) | Use PEFT with nucleotide transformers for DNA sequence modeling. |
+| [ONNX Export](./Transformers/onnx-export.ipynb) | Export transformer models to ONNX format. |
+| [Patch TSMixer](./Transformers/patch_tsmixer.ipynb) | Implement patch-based TSMixer using transformers. |
+| [Patch TST](./Transformers/patch_tst.ipynb) | Explore patch-based TST using transformers. |
+| [Protein Folding](./Transformers/protein_folding.ipynb) | Predict protein structures using transformer-based models. |
+| [Protein Language Modeling TF](./Transformers/protein_language_modeling-tf.ipynb) | Implement protein language modeling using TensorFlow and transformers. |
+| [Protein Language Modeling](./Transformers/protein_language_modeling.ipynb) | Explore protein language modeling using transformer-based models. |
+| [Question Answering TF](./Transformers/question_answering-tf.ipynb) | Implement question answering using TensorFlow and transformers. |
+| [Question Answering](./Transformers/question_answering.ipynb) | Explore question answering using transformer-based models. |
+| [Question Answering ORT](./Transformers/question_answering_ort.ipynb) | Use ORT with transformers for question answering. |
+| [Segment Anything](./Transformers/segment_anything.ipynb) | Segment objects using transformer-based models. |
+| [Semantic Segmentation TF](./Transformers/semantic_segmentation-tf.ipynb) | Implement semantic segmentation using TensorFlow and transformers. |
+| [Semantic Segmentation](./Transformers/semantic_segmentation.ipynb) | Explore semantic segmentation using transformer-based models. |
+| [Speech Recognition](./Transformers/speech_recognition.ipynb) | Recognize speech using transformer-based models. |
+| [Summarization TF](./Transformers/summarization-tf.ipynb) | Implement summarization using TensorFlow and transformers. |
+| [Summarization](./Transformers/summarization.ipynb) | Explore summarization using transformer-based models. |
+| [Summarization ORT](./Transformers/summarization_ort.ipynb) | Use ORT with transformers for summarization. |
+| [Text Classification TF](./Transformers/text_classification-tf.ipynb) | Implement text classification using TensorFlow and transformers. |
+| [Text Classification](./Transformers/text_classification.ipynb) | Explore text classification using transformer-based models. |
+| [Text Classification Flax](./Transformers/text_classification_flax.ipynb) | Use Flax with transformers for text classification. |
+| [Text Classification ORT](./Transformers/text_classification_ort.ipynb) | Use ORT with transformers for text classification. |
+| [Text Classification Quantization Inc](./Transformers/text_classification_quantization_inc.ipynb) | Implement text classification with quantization using Inc. |
+| [Text Classification Quantization ORT](./Transformers/text_classification_quantization_ort.ipynb) | Use ORT with transformers for text classification with quantization. |
+| [Time-Series Transformers](./Transformers/time-series-transformers.ipynb) | Explore time-series forecasting using transformer-based models. |
+| [Time Series Datasets](./Transformers/time_series_datasets.ipynb) | Load and explore time series datasets using transformers. |
+| [Tokenizer Training](./Transformers/tokenizer_training.ipynb) | Train tokenizers using transformer-based models. |
+| [Token Classification TF](./Transformers/token_classification-tf.ipynb) | Implement token classification using TensorFlow and transformers. |
+| [Token Classification](./Transformers/token_classification.ipynb) | Explore token classification using transformer-based models. |
+| [TPU Training TF](./Transformers/tpu_training-tf.ipynb) | Train models using TPUs and TensorFlow with transformers. |
+| [Translation TF](./Transformers/translation-tf.ipynb) | Implement machine translation using TensorFlow and transformers. |
+| [Translation](./Transformers/translation.ipynb) | Explore machine translation using transformer-based models. |
+| [Video Classification](./Transformers/video_classification.ipynb) | Classify videos using transformer-based models. |
+| [Zero-Shot Object Detection with OWLViT](./Transformers/zeroshot_object_detection_with_owlvit.inb) | Implement zero-shot object detection using OWLViT and transformers. |
+| [Video Classification](./Transformers/video_classification.ipynb) | Classify videos using transformer-based models. |
+| [Zero-Shot Object Detection with OWLViT](./Transformers/zeroshot_object_detection_with_owlvit.ipynb) | Implement zero-shot object detection using OWLViT and transformers. |
+
+### Accelerate Examples
+| Notebook | Description |
+| --- | --- |
+| [Simple CV Example](./accelerate_examples/simple_cv_example.ipynb) | Explore computer vision tasks using accelerate. |
+| [Simple NLP Example](./accelerate_examples/simple_nlp_example.ipynb) | Explore natural language processing tasks using accelerate. |
+
+### Idefics
+| Notebook | Description |
+| --- | --- |
+| [Finetune Image Captioning PEFT](./idefics/finetune_image_captioning_peft.ipynb) | Finetune image captioning models using PEFT. |
+
 
 ## Contributing
 --------------
