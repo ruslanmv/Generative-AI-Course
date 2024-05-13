@@ -268,13 +268,13 @@ A list of notebooks related to Generative AI.
 ### Accelerate Examples
 | Notebook | Description |
 | --- | --- |
-| [Simple CV Example](./accelerate_examples/simple_cv_example.ipynb) | Explore computer vision tasks using accelerate. |
-| [Simple NLP Example](./accelerate_examples/simple_nlp_example.ipynb) | Explore natural language processing tasks using accelerate. |
+| [Simple CV Example](./Transformers//accelerate_examples/simple_cv_example.ipynb) | Explore computer vision tasks using accelerate. |
+| [Simple NLP Example](./Transformers//accelerate_examples/simple_nlp_example.ipynb) | Explore natural language processing tasks using accelerate. |
 
 ### Idefics
 | Notebook | Description |
 | --- | --- |
-| [Finetune Image Captioning PEFT](./idefics/finetune_image_captioning_peft.ipynb) | Finetune image captioning models using PEFT. |
+| [Finetune Image Captioning PEFT](./Transformers//idefics/finetune_image_captioning_peft.ipynb) | Finetune image captioning models using PEFT. |
 
 
 ## Contributing
