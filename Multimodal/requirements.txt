@@ -1,0 +1,29 @@
+# requirements file
+# note which revision of python, for example 3.9.6
+# in this file, insert all the pip install needs, include revision
+
+#for example:
+#torch==2.0.1
+#matplotlib==3.7.2
+openai
+torch
+numpy
+pandas
+torchvision
+matplotlib
+tqdm
+python-mnist
+scikit-learn
+plotly
+weaviate-client==4.5.4
+umap-learn
+bokeh ## needed for umap-learn
+holoviews ## needed for umap-learn
+scikit-image ## needed for umap-learn
+colorcet ## needed for umap-learn
+datashader ## needed for umap-learn
+opencv-python
+python-dotenv==1.0.0
+google-generativeai
+python-dotenv==1.0.0
+dask-expr
