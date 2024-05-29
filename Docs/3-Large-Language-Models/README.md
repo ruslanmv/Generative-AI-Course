@@ -12,7 +12,7 @@ Large Language Models (LLMs) have been gaining significant attention in recent y
 The core components of an LLM architecture include:
 
 #### Transformer Architecture
-e Transformer architecture, introduced in the paper "Attention is All You Need" by Vaswani et al. in 2017, has become a cornerstone of modern LLMs. It relies on self-attention mechanisms to process input sequences in parallel, eliminating the need for recurrent neural networks (RNNs) and their sequential processing.
+The Transformers architecture is a type of neural network designed primarily for natural language processing (NLP) tasks. It was introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. It relies on self-attention mechanisms to process input sequences in parallel, eliminating the need for recurrent neural networks (RNNs) and their sequential processing.
 
 ```python
 import torch
@@ -88,6 +88,95 @@ def greedy_decoding(model, input_ids, max_length):
         input_ids = torch.cat((input_ids, next_token.unsqueeze(0)), dim=0)
     return output_ids
 ```
+
+
+**Summary** :
+Key Components
+- Encoder-Decoder Structure: The Transformers architecture consists of an encoder and a decoder. The encoder takes in a sequence of tokens (e.g., words or characters) and outputs a continuous representation of the input sequence. The decoder then generates the output sequence, one token at a time, based on the encoder's output.
+- Self-Attention Mechanism: The core innovation of the Transformers architecture is the self-attention mechanism. This allows the model to attend to different parts of the input sequence simultaneously and weigh their importance. This is in contrast to traditional recurrent neural networks (RNNs), which process the input sequence sequentially and have difficulty modeling long-range dependencies.
+Multi-Head Attention: The self-attention mechanism is applied multiple times in parallel, with different learned linear projections and weights. This is known as multi-head attention, which allows the model to jointly attend to information from different representation subspaces at different positions.
+- Architecture Diagram
+Here is a high-level diagram of the Transformers architecture:
+
+Encoder:
+  - Input Embedding
+  - Self-Attention (Multi-Head)
+  - Feed Forward Network (FFN)
+  - Repeat (N times)
+
+Decoder:
+  - Input Embedding
+  - Self-Attention (Multi-Head)
+  - Feed Forward Network (FFN)
+  - Output Linear Layer
+  - Softmax
+## Code Example
+Here is an example of the Transformers architecture in PyTorch:
+```
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class TransformerEncoder(nn.Module):
+    def __init__(self, num_layers, hidden_size, output_size):
+        super(TransformerEncoder, self).__init__()
+        self.layers = nn.ModuleList([TransformerEncoderLayer(hidden_size, output_size) for _ in range(num_layers)])
+
+    def forward(self, x):
+        for layer in self.layers:
+            x = layer(x)
+        return x
+
+class TransformerEncoderLayer(nn.Module):
+    def __init__(self, hidden_size, output_size):
+        super(TransformerEncoderLayer, self).__init__()
+        self.self_attn = MultiHeadAttention(hidden_size, hidden_size)
+        self.feed_forward = nn.Linear(hidden_size, hidden_size)
+
+    def forward(self, x):
+        x = self.self_attn(x, x)
+        x = self.feed_forward(x)
+        return x
+
+class TransformerDecoder(nn.Module):
+    def __init__(self, num_layers, hidden_size, output_size):
+        super(TransformerDecoder, self).__init__()
+        self.layers = nn.ModuleList([TransformerDecoderLayer(hidden_size, output_size) for _ in range(num_layers)])
+
+    def forward(self, x):
+        for layer in self.layers:
+            x = layer(x)
+        return x
+
+class TransformerDecoderLayer(nn.Module):
+    def __init__(self, hidden_size, output_size):
+        super(TransformerDecoderLayer, self).__init__()
+        self.self_attn = MultiHeadAttention(hidden_size, hidden_size)
+        self.feed_forward = nn.Linear(hidden_size, hidden_size)
+
+    def forward(self, x):
+        x = self.self_attn(x, x)
+        x = self.feed_forward(x)
+        return x
+
+class MultiHeadAttention(nn.Module):
+    def __init__(self, query_size, key_size):
+        super(MultiHeadAttention, self).__init__()
+        self.query_linear = nn.Linear(query_size, query_size)
+        self.key_linear = nn.Linear(key_size, key_size)
+        self.value_linear = nn.Linear(key_size, key_size)
+        self.dropout = nn.Dropout(0.1)
+
+    def forward(self, query, key, value):
+        query = self.query_linear(query)
+        key = self.key_linear(key)
+        value = self.value_linear(value)
+        attention = torch.matmul(query, key.T) / math.sqrt(key.size(-1))
+        attention = self.dropout(attention)
+        output = torch.matmul(attention, value)
+        return output
+```        
+Note that this is a simplified example and may not include all the features and optimizations of the original Transformers architecture.
 
 ## Building the Foundation: Training LLMs
 
