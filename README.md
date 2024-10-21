@@ -284,8 +284,7 @@ In this section, we summarize the list of essential skills needed for mastering 
 The skills listed are designed to provide a comprehensive overview, covering everything from fundamental text processing techniques to the deployment of multi-modal AI systems capable of handling various data types such as text, images, and audio.
 
 For a detailed breakdown of each skill, along with its description and relevance in the context of Generative AI, please refer to the full document below:
-
-[skills.md](Docs/skills.md)
+[skills](Docs/skills.md)
 --- 
 
 This section provides context and directs readers to the detailed skillset document for further learning and reference.
