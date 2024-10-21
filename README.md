@@ -277,7 +277,7 @@ A list of notebooks related to Generative AI.
 | [Finetune Image Captioning PEFT](./Transformers//idefics/finetune_image_captioning_peft.ipynb) | Finetune image captioning models using PEFT. |
 
 
-# Main Skills of Generative AI
+#Skills of Generative AI
 
 In this section, we summarize the list of essential skills needed for mastering Generative AI. For Data Scientists and AI enthusiasts looking to excel in this rapidly evolving field, it is crucial to build a strong foundation in the core concepts and techniques that power generative models. This includes understanding the architecture of large language models (LLMs), mastering the nuances of text and image generation, and being proficient in advanced methods like reinforcement learning and quantization.
 
