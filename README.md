@@ -285,9 +285,6 @@ The skills listed are designed to provide a comprehensive overview, covering eve
 
 For a detailed breakdown of each skill, along with its description and relevance in the context of Generative AI, please refer to the full document below:
 [skills](Docs/skills.md)
---- 
-
-This section provides context and directs readers to the detailed skillset document for further learning and reference.
 
 
 
