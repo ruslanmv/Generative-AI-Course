@@ -40,4 +40,9 @@ Generative AI has rapidly become a crucial area within Data Science, offering po
 | Translation with Transformers           | Implementing machine translation systems using transformer architectures.                            |
 | Video Classification with Transformers  | Classifying video content using models capable of handling sequential data and visual information.   |
 | Accelerated Model Training              | Using tools like PyTorch XLA and TPUs for efficient and faster model training.                       |
-
+| Anonymization                                      | A process where data is anonymized before being used in LLMs to ensure it can be safely utilized in public cloud environments like IBM Cloud, using techniques such as PII (Personally Identifiable Information) masking. |
+| Multi-Agents                                       | A technique for utilizing multiple agents with LLMs in an orchestrated manner to perform multiple tasks within a single framework. |
+| Text-to-SQL                                        | Techniques for generating agents capable of converting natural language into SQL queries.             |
+| Frontend Application Development (Flask, Gradio, Streamlit) | Skills related to developing frontend applications for LLMs using frameworks such as Flask, Gradio, and Streamlit. |
+| React with Carbon                                  | Frontend development using Node.js and the Carbon Design System for creating real web applications.    |
+| Next.js                                            | A frontend framework based on React, optimized for building fast and efficient web applications.       |
